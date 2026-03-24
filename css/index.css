@@ -268,14 +268,17 @@ body {
 }
 
 .flex-abilities {
-  /* width: 90%; */
+  /* width: 50%; */
   /* background-color: aquamarine; */
 }
 
+
+
 .software-eng {
-  border-right: 1px solid #a398ff;
+  /* border-right: 1px solid #a398ff; */
   /* background-color: red; */
   padding: 20px;
+
 }
 
 .web-dev {
@@ -436,7 +439,7 @@ footer {
 @media screen and (max-width: 480px) {
   .parent-cont {
     width: 100%;
-    /* padding: 10px; */
+    /* padding0px; */
     margin-inline: auto;
   }
 
@@ -444,9 +447,13 @@ footer {
     width: 100%;
     /* padding-inline: 20px; */
 
-    /* padding-inline: 10px; */
+    /* padding-inline: 20px; */
 
     margin-inline: auto;
+  }
+
+  .hero-cont {
+    /* padding-inline: 10px; */
   }
 
   /* header */
@@ -462,9 +469,6 @@ footer {
     /* margin: 0; */
     padding: 7px 0px;
 
-    /* justify-content: center;
- align-items: center;
- align-items: center; */
 
     border-radius: 40px;
 
@@ -515,6 +519,13 @@ footer {
   /* my name */
 
   .My-Name {
+    /* padding: 20px; */
+
+    margin-inline: 15px;
+  }
+
+  .career {
+    margin-inline: 15px;
   }
 
   /* about */
@@ -539,6 +550,8 @@ footer {
 
   .Skills {
     height: 100vh;
+
+
     /* width: 100%; */
     /* border: 1px solid white; */
 
@@ -572,10 +585,19 @@ footer {
     /* width: 100%; */
   }
 
+
+
+
+  /* footer */
+
   footer {
     flex-direction: column;
     align-items: center;
     /* text-align: center; */
+
+    /* margin-top: 0px; */
+
+    margin-top: 200px;
   }
 
   .left-footer {
