@@ -421,9 +421,19 @@ footer {
   }
 }
 
+
+
+
+
+
+
+
+
+
+
 /* Mobile Responsive */
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 480px) {
   .parent-cont {
     width: 100%;
     /* padding: 10px; */
