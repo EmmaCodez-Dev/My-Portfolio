@@ -8,6 +8,7 @@
   padding: 0px;
   box-sizing: border-box;
   scroll-behavior: smooth;
+
   font-family: "Exo 2", sans-serif;
 }
 /* max-cont */
@@ -236,55 +237,65 @@ body {
 
     display: flex;
 
+    font-weight: 150;
+
     color: white;
 
     justify-content: center;
+
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   }
 }
 
-.my-abilities {
+.Skills {
   margin-top: 50px;
-  height: 400px;
-
   color: #ccd6f6;
 
-  border: 1px solid #ccd6f6;
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+  gap: 20px;
 
-  padding: 50px;
+  /* padding: 10px; */
 
-  display: grid;
-  grid-template-columns: 1fr 2fr;
-  gap: 50px;
-  align-items: center;
+  /* padding: 50px; */
+  /* align-items: center; */
+
+  div {
+    padding: 40px;
+  }
 
   h1 {
     color: #ccd6f6;
-    margin-bottom: 10px;
+    margin-bottom: 25px;
+
+    /* padding: 20px 0px; */
   }
 
   p {
     color: white;
+    font-size: 18px;
+
+    line-height: 1.6;
   }
 }
 
-.flex-abilities {
-  /* width: 50%; */
-  /* background-color: aquamarine; */
-}
-
 .software-eng {
-  /* border-right: 1px solid #a398ff; */
-  /* background-color: red; */
-  padding: 20px;
+  /* padding: 20px; */
+  border: 1px solid #ccd6f6;
 }
 
 .web-dev {
-  padding: 20px;
-  /* border-bottom: 1px solid #a398ff ; */
-  /* background-color: greenyellow; */
+  /* padding: 20px; */
+  border: 1px solid #ccd6f6;
 }
 
-.ab-hr {
+.app-dev {
+  /* padding: 20px; */
+
+  border: 1px solid #ccd6f6;
+}
+/* .ab-hr {
   border: 0;
   height: 1px;
   width: 100%;
@@ -296,12 +307,7 @@ body {
     #a398ff 50%,
     transparent 90%
   );
-}
-
-.app-dev {
-  padding: 20px;
-  /* background-color: pink; */
-}
+} */
 
 /* footer */
 
@@ -425,10 +431,12 @@ footer {
 
 @media screen and (max-width: 480px) {
   .parent-cont {
-    /* width: 100%; */
+    width: 100%;
     /* padding0px; */
-    margin-inline: auto;
-    padding: 10px;
+    /* margin-inline: 20px; */
+    padding-inline: 20px;
+
+    /* background-color: pink; */
   }
 
   .max-hero {
@@ -438,9 +446,22 @@ footer {
     /* padding-inline: 20px; */
 
     margin-inline: auto;
+
+    padding-inline: 10px;
+
+    /* background-color: orange; */
+  }
+
+  .logo {
+    transition: 0.3s ease-in;
+
+    &:hover {
+      opacity: 1;
+    }
   }
 
   .hero-cont {
+    /* padding-inline: 20px; */
     /* padding-inline: 10px; */
   }
 
@@ -451,13 +472,15 @@ footer {
   }
 
   .hero-header {
-    width: 100%;
+    /* width: 90%;
+
+    margin-inline: auto; */
 
     /* max-width: 768px; */
     /* margin: 0; */
     /* padding: 7px 0px; */
 
-    border-radius: 40px;
+    /* border-radius: 40px; */
 
     /* margin-inline: 10px; */
     /* margin-top: 25px; */
@@ -467,18 +490,20 @@ footer {
     position: sticky !important;
     top: 0;
     margin-top: 20px;
+    /* margin-inline: auto; */
 
     background-color: #ccd6f6;
-    padding: 10px 18px;
+    padding: 10px 15px;
 
     border-radius: 20px;
     /* gap: 10px; */
     margin-inline: auto !important;
+    /* width: 95%; */
     /* margin-left: 0px; */
 
     /* padding: 3px; */
 
-    transition: 0.3s ease-in-out;
+    /* transition: 0.3s ease-in-out; */
 
     a {
       font-size: 15px;
@@ -492,10 +517,6 @@ footer {
       padding: 4px;
 
       /* transition: 0.3s ease-in; */
-      &:hover {
-        opacity: 1;
-        /* color: #; */
-      }
     }
 
     .me {
@@ -506,21 +527,39 @@ footer {
   /* my name */
 
   .My-Name {
+    width: 100%;
+    /* margin: 10px; */
+
+    /* background-color: greenyellow; */
     h1 {
       font-size: 65px;
+      /* padding-inline: 10; */
+      /* margin-inline: auto; */
     }
-    /* padding: 20px; */
+  }
 
-    /* margin-inline: 15px; */
+  .hero {
+    /* margin-inline: auto; */
+
+    /* padding: 20px; */
   }
 
   .career {
-    margin-inline: 15px;
+    /* margin-inline: auto; */
 
     p {
-      display: flex;
+      /* display: flex; */
       /* text-align: center; */
-      align-items: center;
+      justify-content: center;
+      /* align-items: center; */
+
+      padding: 20px 0px;
+
+      /* padding-inline: 50px; */
+
+      /* background-color: red; */
+
+      /* font-size:17px; */
     }
   }
 
@@ -545,40 +584,13 @@ footer {
   /* skill */
 
   .Skills {
-    height: 100vh;
-    margin-bottom: 100px;
+    flex-direction: column;
 
-    /* width: 100%; */
-    /* border: 1px solid white; */
+    width: 100%;
 
-    p {
-      line-height: 1.8;
-    }
-  }
-
-  .my-abilities {
-    /* flex-direction: column; */
-    display: grid;
-    grid-template-columns: 1fr;
-    border: none;
-
-    /* padding: 0px; */
-    /* margin-top: 0px; */
-    /* text-align: center; */
-
-    margin-top: 0px;
-  }
-
-  .flex-abilities {
-    border: 1px solid #a398ff;
-  }
-
-  .software-eng {
-    border: none;
-    border: 1px solid #a398ff;
-
-    /* padding: 50px; */
-    /* width: 100%; */
+    /* margin-inline: auto;
+width: 90%;
+    */
   }
 
   /* footer */
@@ -591,7 +603,7 @@ footer {
 
     /* margin-top: 0px; */
 
-    margin-top: 200px;
+    /* margin-top: 200px; */
   }
 
   .left-footer {
