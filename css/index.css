@@ -436,7 +436,7 @@ footer {
 
 /* Mobile Responsive */
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 760px) {
   .parent-cont {
     width: 100%;
     /* padding0px; */
@@ -557,6 +557,8 @@ footer {
   .skill-heading {
     h1 {
       font-size: 30px;
+      font-weight: bold;
+
     }
   }
 
