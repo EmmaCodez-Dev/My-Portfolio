@@ -436,7 +436,7 @@ footer {
 
 /* Mobile Responsive */
 
-@media screen and (max-width: 760px) {
+@media screen and (max-width: 480px) {
   .parent-cont {
     width: 100%;
     /* padding0px; */
@@ -554,11 +554,18 @@ footer {
   }
 
   /* skill */
+  .skill-heading {
+    h1 {
+      font-size: 30px;
+    }
+  }
 
   .Skills {
     flex-direction: column;
 
     width: 100%;
+
+    
 
     /* margin-inline: auto;
 width: 90%;
