@@ -680,11 +680,10 @@ footer {
 
       /* font-style: italic; */
       font-size: 20px !important;
-    }
-
-    &:hover {
-      text-decoration-line: none !important;
-      text-decoration-style: none !important;
+      &:hover {
+        text-decoration-line: none !important;
+        text-decoration-style: none !important;
+      }
     }
   }
 
