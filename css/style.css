@@ -683,8 +683,8 @@ footer {
     }
 
     &:hover {
-      text-decoration-line: none;
-      text-decoration-style: none;
+      text-decoration-line: none !important;
+      text-decoration-style: none !important;
     }
   }
 
