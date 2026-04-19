@@ -852,12 +852,7 @@ footer {
 
   .header-cont {
     padding: 5px 30px;
-    /* position: sticky; */
-    /* top: 0; */
-    /* background-color: #18bfef; */
-    /* padding: 5px 30px; */
-    /* flex-direction: column; */
-    /* display: flex; */
+    
 
     gap: 10px;
 
@@ -1079,11 +1074,7 @@ footer {
 }
 
 /* Mobile - Tablet Max 768px */
-@media (max-width: 768px) {
-  body {
-    /* background-color: red; */
-  }
-
+/* @media (max-width: 760px) {
   .tech-hero-name {
     h1 {
       color: rgb(255, 255, 255);
@@ -1092,8 +1083,6 @@ footer {
       font-weight: 600;
 
       text-shadow: 20px 30px 60px black;
-
-      /* font-style: italic; */
     }
   }
   .about-me {
@@ -1102,14 +1091,12 @@ footer {
     }
   }
 
-  /* stacks */
   .stacks {
     gap: 0;
   }
-  /* footer */
 
   .flex-footer {
-    flex-direction: column-reverse;
+  
     width: 100% !important;
   }
 
@@ -1119,7 +1106,7 @@ footer {
   }
 
   .right-footer {
-    display: flex;
+   
     height: 100%;
   }
 
@@ -1129,5 +1116,6 @@ footer {
 
   .Left-Footer {
     text-align: center;
+    height: 100%;
   }
-}
+} */
